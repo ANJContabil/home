@@ -31,7 +31,7 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./home"  # pasta a enviar (pode trocar por 'dist', 'build', etc)
+          path: "./home"
 
       - name: Deploy to GitHub Pages
         id: deployment
